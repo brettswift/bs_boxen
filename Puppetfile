@@ -59,3 +59,27 @@ github "xquartz",     "1.1.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "iterm2",      "1.2.x"
+github "alfred",      "1.3.x"
+github "sublime_text","1.0.x"
+github "chrome",      "1.2.x"
+github "dropbox",     "1.4.x"
+github "skype",       "1.0.x"
+github "osx",         "2.7.x"
+github "evernote",    "2.0.x"
+github "virtualbox",  "1.0.x"
+github "vagrant",     "3.1.x"
+#github "better_touch_tools",  "2.0.x"
+github "onepassword", "1.1.x"
+github "packer",      "1.3.x"
+github "appcleaner",  "1.0.x"
+github "atom",        "1.0.x"
+github "sourcetree",  "1.0.x"
+#github "graphviz",    "1.0.x"  broken..
+github "nvm",         "1.0.x"
+github "caffeine",    "1.0.x"
+github "google_notifier", "1.0.x"
+#github "xquartz",     "1.2.x"
+
+
+
