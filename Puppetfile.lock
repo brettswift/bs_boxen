@@ -14,6 +14,11 @@ GITHUBTARBALL
     atom (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-better_touch_tools
+  specs:
+    better_touch_tools (3.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.6.2)
@@ -69,6 +74,11 @@ GITHUBTARBALL
     google_notifier (1.0.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-hipchat
+  specs:
+    hipchat (1.1.3)
+
+GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
     homebrew (1.9.4)
@@ -107,11 +117,6 @@ GITHUBTARBALL
   remote: boxen/puppet-openssl
   specs:
     openssl (1.0.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-osx
-  specs:
-    osx (2.7.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-packer
@@ -174,6 +179,21 @@ GITHUBTARBALL
     xquartz (1.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
+  remote: brettswift/puppet-osx
+  specs:
+    osx (2.7.2)
+
+GITHUBTARBALL
+  remote: erivello/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -192,6 +212,7 @@ DEPENDENCIES
   alfred (~> 1.3.0)
   appcleaner (~> 1.0.0)
   atom (~> 1.0.0)
+  better_touch_tools (= 3.0.0)
   boxen (= 3.6.2)
   caffeine (~> 1.0.0)
   chrome (~> 1.2.0)
@@ -203,6 +224,7 @@ DEPENDENCIES
   git (= 2.5.0)
   go (= 1.1.0)
   google_notifier (~> 1.0.0)
+  hipchat (~> 1.1.0)
   homebrew (= 1.9.4)
   hub (= 1.3.0)
   inifile (= 1.1.1)
@@ -211,6 +233,7 @@ DEPENDENCIES
   nginx (= 1.4.3)
   nodejs (= 3.8.1)
   nvm (~> 1.0.0)
+  ohmyzsh (~> 1.0.0)
   onepassword (~> 1.1.0)
   openssl (= 1.0.0)
   osx (~> 2.7.0)
@@ -227,4 +250,5 @@ DEPENDENCIES
   vagrant (~> 3.1.0)
   virtualbox (~> 1.0.0)
   xquartz (= 1.1.1)
+  zsh (~> 1.0.0)
 
