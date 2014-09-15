@@ -12,9 +12,6 @@ class people::brettswift {
   include zsh
   include ohmyzsh
 
-  #want both! greedy
-  include sublime_text::v2
-
   include google_notifier
 
   vagrant::plugin { 'vagrant-pushbullet': }
@@ -22,4 +19,7 @@ class people::brettswift {
   vagrant::plugin { 'vagrant-vbox-snapshot': }
 
 
+  include homesick
+  include brettswift::sublime
+  include brettswift::osx
 }

@@ -23,7 +23,7 @@ end
 
 # Shortcut for a module under development
 def dev(name, *args)
-  mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
+  mod "puppet-#{name}", :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
@@ -52,7 +52,7 @@ github "openssl",     "1.0.0"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
-github "ruby",        "8.1.2"
+github "ruby",        "8.1.4"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
@@ -83,5 +83,4 @@ github "google_notifier", "1.0.x"
 github "zsh",          "1.0.x"
 github "ohmyzsh",      "1.0.x",  :repo => "erivello/puppet-ohmyzsh"
 github "hipchat",      "1.1.x"
-
-
+github "homesick",     "0.0.x",  :repo => "brettswift/puppet-homesick"

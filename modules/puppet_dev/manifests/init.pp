@@ -16,7 +16,7 @@ class puppet_dev {
   #homebrew
   # package { 'gource': } #TODO fix gource: https://code.google.com/p/gource/wiki/MacSupport
   package { 'git-extras': }
-  package { 'hub': }
+  package { 'wget': }
   #end homebrew
 
   class { 'vagrant':

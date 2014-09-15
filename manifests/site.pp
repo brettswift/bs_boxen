@@ -75,6 +75,9 @@ node default {
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
 
+  class { 'ruby::global':
+    version => '2.1.2'
+  }
   # common, useful packages
   package {
     [
@@ -84,7 +87,7 @@ node default {
     ]:
   }
 
-  file { "${boxen::config::srcdir}/our-boxen":
+  file { "${boxen::config::srcdir}/bs-boxen":
     ensure => link,
     target => $boxen::config::repodir
   }
