@@ -1,6 +1,6 @@
 class people::brettswift {
 
-	include hipchat  
+	include hipchat
   include evernote
   include better_touch_tools
   include onepassword
@@ -18,8 +18,11 @@ class people::brettswift {
   vagrant::plugin { 'vagrant-digitalocean': }
   vagrant::plugin { 'vagrant-vbox-snapshot': }
 
+  package { 'cmatrix': }
 
   include homesick
   include brettswift::sublime
   include brettswift::osx
+
+	#include onepassword::chrome
 }
