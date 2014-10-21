@@ -24,5 +24,5 @@ class people::brettswift {
   include brettswift::sublime
   include brettswift::osx
 
-	#include onepassword::chrome
+	include onepassword::chrome
 }
