@@ -26,3 +26,12 @@ class people::brettswift {
 
 	include onepassword::chrome
 }
+
+
+##TODO - install these after re-image:
+# hipchat
+# gitifier
+# Limechat
+# seashore
+# sourcetree
+# twitter
