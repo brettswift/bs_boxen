@@ -63,3 +63,12 @@ class people::brettswift {
 	}
 	#end ruby
 }
+
+
+##TODO - install these after re-image:
+# hipchat
+# gitifier
+# Limechat
+# seashore
+# sourcetree
+# twitter
