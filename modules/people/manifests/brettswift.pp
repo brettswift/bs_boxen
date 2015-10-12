@@ -21,7 +21,6 @@ class people::brettswift {
   package { 'cmatrix': }
 
   include homesick
-  include brettswift::sublime
   include brettswift::osx
 
 	include onepassword::chrome
